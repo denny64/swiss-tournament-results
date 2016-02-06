@@ -1,6 +1,6 @@
 # Tournament Results
 
-# Description
+** Description **
 This project defines the database schema in tournament.sql, and is used it to track a Swiss tournament in tournament.py.
 This project is from the (Introduction to Relational Databases)[https://www.udacity.com/course/intro-to-relational-databases--ud197] course from Udacity.
 
