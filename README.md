@@ -1,1 +1,0 @@
-# udacity-swiss-tournament-results
