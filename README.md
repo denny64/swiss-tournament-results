@@ -3,7 +3,7 @@
 **Description**
 
 This project defines the database schema in tournament.sql, and is used it to track a Swiss tournament in tournament.py. Some information on [Swiss Tournament Pairing](https://www.wizards.com/dci/downloads/Swiss_Pairings.pdf).
-This project is from the [Introduction to Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197) course from Udacity.
+This project is part of the [Introduction to Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197) course from Udacity.
 
 Requirements: 
 
