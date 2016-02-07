@@ -76,7 +76,7 @@ def playerStandings():
         wins: the number of matches the player has won
         matches: the number of matches the player has played
     """
-    query = "select * from standings;"
+    query = "SELECT * FROM standings;"
     return returnConnection(query)
 
 
@@ -115,6 +115,10 @@ def swissPairings():
     """
     query = "SELECT id, name from standings ORDER BY wins DESC;"
     standings = returnConnection(query)
+
+    # Determine the matches to be played based on a player's rankings in the
+    # standing view. The below for loop iterates through 2 players each time
+    # and returns their information.
 
     pairs = []
     total_players = len(standings)
